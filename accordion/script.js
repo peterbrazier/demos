@@ -18,7 +18,7 @@ highlight.forEach((element) => {
  * Accordion 1
  * Add click event to each accordion header
  */
-const acc = document.querySelectorAll(".acc2");
+const acc = document.querySelectorAll(".acc1");
 
 acc.forEach(function(accordion) {
   const accordionHeader = accordion.querySelector(".accordion__header");
@@ -35,7 +35,7 @@ acc.forEach(function(accordion) {
  * Accordion 2
  * Add click event to each accordion header
  */
-const acc2 = document.querySelectorAll(".acc3 .accordion__header");
+const acc2 = document.querySelectorAll(".acc2 .accordion__header");
 
 acc2.forEach(function(button) {
   button.addEventListener("click", function() {
@@ -50,10 +50,10 @@ acc2.forEach(function(button) {
 });
 
 /**
- * Accordion 1
+ * Accordion 3
  * Add click event to each accordion header
  */
-const acc3 = document.querySelectorAll(".acc1 .accordion__header");
+const acc3 = document.querySelectorAll(".acc3 .accordion__header");
 
 acc3.forEach((button) => {
   button.addEventListener("click", () => {
